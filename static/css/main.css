@@ -1574,7 +1574,6 @@ body {
 
 .cd-modal {
   position: fixed;
-  z-index: 9998;
   top: 0;
   left: 0;
   height: 100vh;
@@ -1630,6 +1629,7 @@ body {
 
 .cd-modal.modal-is-visible {
   visibility: visible;
+  z-index: 9999;
   -webkit-transition: visibility 0s 0s;
   -o-transition: visibility 0s 0s;
   transition: visibility 0s 0s; }
