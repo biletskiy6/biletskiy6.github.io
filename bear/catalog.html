@@ -51,7 +51,7 @@
                 </div>
               </li>
             </ul>
-            <a class="logo logo--header" href="index.html">
+            <a class="logo logo--header" href="/">
               <picture>
                 <source media="(max-width: 768px)" srcset="static/img/svg/logo-mobile.svg">
                 <source media="(max-width: 1150px)" srcset="static/img/svg/logo-tablet.svg">
@@ -187,7 +187,7 @@
                 <img class="production-video__picture" src="static/img/content/video-desktop@1x.jpg" srcset="static/img/content/video-desktop@2x.jpg 2x" alt="Постер">
               </picture>
               <a href="#" class="production-video__link">
-              <img src="static/img/svg/icon-play.svg" alt="">
+                <img src="static/img/svg/icon-play.svg" alt="">
               </a>
             </div>
           </div>
@@ -241,11 +241,12 @@
     </footer>
     <div class="modal-overlay">
       <div class="modal">
+        <div class="modal__success"><span class="modal__success-text">Спасибо за заявку!</span></div>
         <div class="modal__close"></div>
         <h4 class="modal__header">Оставить заявку</h4>
         <form action="#" class="modal__form">
-          <input type="text" placeholder="Ваше имя" class="modal__input">
-          <input type="text" placeholder="Ваш телефон" class="modal__input">
+          <input id="modal__form-name" type="text" placeholder="Ваше имя" class="modal__input">
+          <input id="modal__form-phone" type="text" placeholder="Ваш телефон" class="modal__input">
           <input type="submit" class="button" value="Оставить заявку">
         </form>
       </div>
