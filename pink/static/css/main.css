@@ -99,9 +99,9 @@ template{display:none;}
 .slick-dots li button:hover:before, .slick-dots li button:focus:before{opacity:1;}
 .slick-dots li button:before{position:absolute;top:0;left:0;content:"•";width:20px;height:20px;font-family:"slick";font-size:6px;line-height:20px;text-align:center;color:black;opacity:0.25;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
 .slick-dots li.slick-active button:before{color:black;opacity:0.75;}
-@font-face{font-family:"OpenSans";font-weight:normal;font-style:normal;src:url("../fonts/OpenSans/opensans.woff") format("woff");src:url("../fonts/OpenSans/opensans.woff2") format("woff2");}
-@font-face{font-family:"OpenSansLight";font-weight:normal;font-style:normal;src:url("../fonts/OpenSansLight/opensanslight.woff") format("woff");src:url("../fonts/OpenSansLight/opensanslight.woff2") format("woff2");}
-@font-face{font-family:"OpenSansBold";font-weight:normal;font-style:normal;src:url("../fonts/OpenSansBold/opensansbold.woff") format("woff");src:url("../fonts/OpenSansBold/opensansbold.woff2") format("woff2");}
+@font-face{font-family:"OpenSans";font-weight:normal;font-style:normal;src:url("../fonts/OpenSans/opensans.woff2") format("woff2");src:url("../fonts/OpenSans/opensans.woff") format("woff");}
+@font-face{font-family:"OpenSansLight";font-weight:normal;font-style:normal;src:url("../fonts/OpenSansLight/opensanslight.woff2") format("woff2");src:url("../fonts/OpenSansLight/opensanslight.woff") format("woff");}
+@font-face{font-family:"OpenSansBold";font-weight:normal;font-style:normal;src:url("../fonts/OpenSansBold/opensansbold.woff2") format("woff2");src:url("../fonts/OpenSansBold/opensansbold.woff") format("woff");}
 *{border:none;}
 ::-webkit-input-placeholder{color:#666;}
 ::-moz-placeholder{color:#666;}
