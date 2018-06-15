@@ -1,4 +1,4 @@
-@charset "UTF-8";html{line-height:1.15;-webkit-text-size-adjust:100%;}
+﻿@charset "UTF-8";html{line-height:1.15;-webkit-text-size-adjust:100%;}
 body{margin:0;}
 h1{font-size:2em;margin:0.67em 0;}
 hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible;}
@@ -320,7 +320,7 @@ body input:required:valid, body textarea:required:valid{border-color:green;}
 }
 .contacts-items__descr{font-family:"OpenSansLight", "Arial", sans-serif;font-size:24px;color:#d7155a;margin:0;}
 .contacts-items__item--phone .contacts-items__descr, .contacts-items__item--mail .contacts-items__descr{text-decoration:none;}
-.main-footer{color:#283645;}
+.main-footer{color:#283645;padding:40px 0}
 .main-footer__logo{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-flex:1;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;}
 @media screen and (max-width:660px){.main-footer__logo{-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-flex:1;-webkit-flex:1 1 100%;-ms-flex:1 1 100%;flex:1 1 100%;}
 }
