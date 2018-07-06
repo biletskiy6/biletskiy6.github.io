@@ -1,4 +1,4 @@
-@charset "UTF-8";html{line-height:1.15;-webkit-text-size-adjust:100%;}
+﻿@charset "UTF-8";html{line-height:1.15;-webkit-text-size-adjust:100%;}
 body{margin:0;}
 h1{font-size:2em;margin:0.67em 0;}
 hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible;}
@@ -71,7 +71,7 @@ template{display:none;}
 .slick-loading .slick-slide{visibility:hidden;}
 .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent;}
 .slick-arrow.slick-hidden{display:none;}
-.slick-loading .slick-list{background:#fff url("./ajax-loader.gif") center center no-repeat;}
+.slick-loading .slick-list{background:#fff}
 @font-face{font-family:"slick";src:url("./fonts/slick.eot");src:url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg");font-weight:normal;font-style:normal;}
 .slick-prev,
 .slick-next{position:absolute;display:block;height:20px;width:20px;line-height:0px;font-size:0px;cursor:pointer;background:transparent;color:transparent;top:50%;-webkit-transform:translate(0, -50%);-ms-transform:translate(0, -50%);transform:translate(0, -50%);padding:0;border:none;outline:none;}
