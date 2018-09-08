@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Eclipse</title>
+        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta property="og:image" content="path/to/image.jpg">
+        <meta name="theme-color" content="#283645">
+        <meta name="msapplication-navbutton-color" content="#283645">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#283645">
+        <link rel="icon" href="static/img/favicon/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/apple-touch-icon-180x180.png">
+        <link rel="stylesheet" href="static/css/main.css">
+        <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"></script>
+    </head>
+    <body class="home">
+        <div class="preloader">
+            <div class="preloader__spinner">
+                <div class="preloader__animation"></div>
+                <div class="preloader__percents">0%</div>
+            </div>
+        </div>
+        <header id="main" class="main-header">
+            <div class="container">
+                <div class="main-header__wrapper">
+                    <a href="#" class="logo">
+                    <img src="static/img/content/main/logo.png" alt="Eclipse" class="logo__icon">
+                    </a>
+                    <div class="main-contacts">
+                        <ul class="languages">
+                            <li class="languages__item">
+                                <a href="#" class="languages__link">En</a>
+                            </li>
+                            <li class="languages__item languages__item--active">
+                                <a href="#" class="languages__link">Ru</a>
+                            </li>
+                            <li class="languages__item">
+                                <a href="#" class="languages__link">It</a>
+                            </li>
+                            <li class="languages__item">
+                                <a href="#" class="languages__link">De</a>
+                            </li>
+                            <li class="languages__item">
+                                <a href="#" class="languages__link">Fr</a>
+                            </li>
+                            <li class="languages__item">
+                                <a href="#" class="languages__link">Es</a>
+                            </li>
+                            <li class="languages__item">
+                                <a href="#" class="languages__link">Pt</a>
+                            </li>
+                        </ul>
+                        <h3 class="main-contacts__header">Письменные и устные переводы <span class="separator">для вашего бизнеса</span> </h3>
+                        <div class="main-contacts__wrap">
+                            <a href="tel:+74952239226" class="main-contacts__phone">+7 /495/ 223 92 26</a>
+                        </div>
+                        <div class="main-contacts__wrap">
+                            <a href="mailto:info@buro-eclipse.ru" class="main-contacts__mail">info@buro-eclipse.ru</a>
+                        </div>
+                        <a href="#" class="button" data-popup="modal" data-id="modal-window-1">Обратный звонок</a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-block">
+                <div class="container">
+                    <div class="main-block__wrapper">
+                        <div class="main-descr">
+                            <p class="main-descr__economy">Экономьте до 70% бюджета на перевод <span class="separator main-descr__economy-accent">при помощи технологии</span></p>
+                            <h1 class="header header--main">Translation Memory</h1>
+                            <ul class="main-icons">
+                                <li class="main-icons__item">
+                                    <img src="static/img/content/main/main-1.png" alt="Education" class="main-icons__item-img">
+                                    <h4 class="main-icons__item-header header-trim">Более 5 лет на рынке</h4>
+                                </li>
+                                <li class="main-icons__item">
+                                    <img src="static/img/content/main/main-2.png" alt="Education" class="main-icons__item-img">
+                                    <h4 class="main-icons__item-header header-trim">Сертификат ISO</h4>
+                                </li>
+                                <li class="main-icons__item">
+                                    <img src="static/img/content/main/main-3.png" alt="Education" class="main-icons__item-img">
+                                    <h4 class="main-icons__item-header">Член международной ассоциации GALA</h4>
+                                </li>
+                                <li class="main-icons__item">
+                                    <img src="static/img/content/main/main-4.png" alt="Education" class="main-icons__item-img">
+                                    <h4 class="main-icons__item-header">Более 500 <span class="separator">постоянных клиентов</span> </h4>
+                                </li>
+                                <li class="main-icons__item">
+                                    <img src="static/img/content/main/main-5.png" alt="Education" class="main-icons__item-img">
+                                    <h4 class="main-icons__item-header">Более 12 000 часов <span class="separator">устного перевода в год</span></h4>
+                                </li>
+                                <li class="main-icons__item">
+                                    <img src="static/img/content/main/main-6.png" alt="Education" class="main-icons__item-img">
+                                    <h4 class="main-icons__item-header">Более 120 000 переведенных <span class="separator">страниц в год</span> </h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="main-form main-form--header">
+                            <div class="main-form__wrapper">
+                                <p class="main-form__descr">
+                                    Нужен срочный перевод контракта или делового письма? Переговоры с иностранными партнерами перенесли на сегодняшний вечер, а под рукой нет переводчика?
+                                </p>
+                                <h2 class="main-form__header">Решите задачу сейчас:</h2>
+                                <form action="#" class="form form--main">
+                                    <input id="form__name" type="text" class="form__input" placeholder="Введите имя:">
+                                    <input id="form__phone" type="text" class="form__input" placeholder="Введите телефон:">
+                                    <input type="submit" class="form__submit button" value="Нужен срочный перевод">
+                                </form>
+                            </div>
+                            <span class="success-text">Спасибо, ваш запрос отправлен.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="main-menu">
+            <div class="container">
+                <div class="main-menu__wrapper">
+                    <a href="#" class="main-menu__logo"><img src="static/img/content/main/logo-hidden.png" alt="" class="main-menu__logo-img"></a>
+                    <nav class="menu">
+                        <ul class="menu-list">
+                            <li class="menu-list__item">
+                                <a href="#main" class="menu-list__link">Главная</a>
+                            </li>
+                            <li class="menu-list__item">
+                                <a href="#recomendation" class="menu-list__link">Письменные переводы</a>
+                            </li>
+                            <li class="menu-list__item">
+                                <a href="#reasons" class="menu-list__link">Устные переводы</a>
+                            </li>
+                            <li class="menu-list__item">
+                                <a href="#contacts" class="menu-list__link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="toggle-menu">
+                        <div class="toggle-menu__row"></div>
+                        <div class="toggle-menu__row"></div>
+                        <div class="toggle-menu__row"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="banner">
+            <div class="container">
+                <div class="banner-descr">
+                    <p class="banner-descr__text">Eclipse – имя самого быстрого в мире скакуна. Он выиграл все забеги, в которых участвовал. Само появление живой легенды на ипподроме лишало соперников малейших шансов на победу.</p>
+                    <p class="banner-descr__text">Среди наших клиентов есть крупные компании и министерства. Градообразующие предприятия и небольшие фирмы, которые только выходят на международную арену. Всем им важен быстрый и качественный результат.</p>
+                    <p class="banner-descr__text">И мы его гарантируем. Скорость наших переводов обеспечивает команда из более чем 1200 профессиональных лингвистов со всего мира. И оперативность новейших CAT-технологий.</p>
+                    <p class="banner-descr__text">Наша работа – открывающийся перед вами мир финансовых перспектив и международных бизнес-проектов. Мир коммуникаций, не ограниченный языковыми барьерами.</p>
+                    <h2 class="banner-descr__header">Eclipse. Вы – впереди.</h2>
+                </div>
+            </div>
+        </section>
+        <section class="special">
+            <div class="container">
+                <div class="special__wrapper">
+                    <p class="special__technology">CAT–технология</p>
+                    <h2 class="special__header">Translation Memory</h2>
+                    <p class="special__advise">Сократите до 70% расходов на услуги перевода</p>
+                    <p class="special__about">Наша компания использует самые современные технологии для повышения эффективности работы переводчиков. </p>
+                    <p class="special__about">С технологией <span class="special__about-accent">Translation Memory</span>  вам не придётся платить за многократный перевод повторяющихся фрагментов текста. </p>
+                    <div class="slider">
+                        <div class="slider-items">
+                            <div class="slider-item">
+                                <div class="slider-content">
+                                    <img src="static/img/content/slider/item-1.png" alt="Item 1" class="slider-item__img">
+                                    <div class="slider-descr">
+                                        <span class="slider-descr__count">1</span>
+                                        <p class="slider-descr__text slider-trimtext slider-trimtext--first">Наш переводчик выполняет перевод термина/фразы/предложения</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-content">
+                                    <img src="static/img/content/slider/item-2.png" alt="Item 2" class="slider-item__img">
+                                    <div class="slider-descr">
+                                        <span class="slider-descr__count">2</span>
+                                        <p class="slider-descr__text slider-trimtext slider-trimtext--second">Перевод сохраняется в памяти переводов (Translation Memory)</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-content">
+                                    <img src="static/img/content/slider/item-3.png" alt="Item 3" class="slider-item__img">
+                                    <div class="slider-descr">
+                                        <span class="slider-descr__count">3</span>
+                                        <p class="slider-descr__text slider-descr__text">Система автоматически использует то же значение <span class="separator"> для всех последующих случаев, экономя время и ваш бюджет</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-content">
+                                    <img src="static/img/content/slider/item-4.png" alt="Item 4" class="slider-item__img">
+                                    <div class="slider-descr">
+                                        <span class="slider-descr__count">4</span>
+                                        <p class="slider-descr__text slider-descr__text slider-trimtext slider-trimtext--fourth">По мере наполнения памяти переводов (Translation Memory)
+                                            вы все больше и больше экономите время и ваш бюджет
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="slider-content">
+                                    <img src="static/img/content/slider/item-5.png" alt="Item 5" class="slider-item__img">
+                                    <div class="slider-descr">
+                                        <span class="slider-descr__count">5</span>
+                                        <p class="slider-descr__text">Больше текстов – перевод быстрее и выгоднее!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advantages">
+                        <h3 class="advantages__header">
+                            Оцените 3 преимущества, <span class="separator">которые вы получаете в результате:</span>  
+                        </h3>
+                        <div class="advantages-items">
+                            <div class="advantages-item">
+                                <img src="static/img/content/technology/tech-1.png" alt="" class="advantages-item__img">
+                                <p class="advantages-item__descr advantages-item__descr--trim">Высокая скорость, недоступная традиционным методикам перевода</p>
+                            </div>
+                            <div class="advantages-item">
+                                <img src="static/img/content/technology/tech-2.png" alt="" class="advantages-item__img">
+                                <p class="advantages-item__descr advantages-item__descr--trim">Стабильно <span class="separator"> высокое качество, невозможное для машинного перевода</span></p>
+                            </div>
+                            <div class="advantages-item">
+                                <img src="static/img/content/technology/tech-3.png" alt="" class="advantages-item__img">
+                                <p class="advantages-item__descr advantages-item__descr advantages-item__descr--third">Экономия! При переводе <span class="separator">большого количества текстов, Вы экономите – до 70% своего бюджета!</span> </p>
+                            </div>
+                        </div>
+                        <a href="#" class="button button--advantages" data-popup="modal" data-id="modal-window-2">Заказать перевод</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="recomendation" class="recomendation">
+            <div class="container">
+                <div class="recomendation__content">
+                    <span class="recomendation__content-count">73%</span>
+                    <div class="recomendation-descr">
+                        <p class="recomendation-descr__header">Новых клиентов <span class="recomendation-descr__header-accent">приходят к нам по рекомендации</span> </p>
+                        <p class="recomendation-descr__quest">Почему же нас рекомендуют?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="recomendation-content">
+                <div class="container">
+                    <div class="recomendation-items">
+                        <div class="recomendation-item">
+                            <h3 class="recomendation-item__header">Оперативность переводов</h3>
+                            <p class="recomendation-item__content">Стандартная скорость перевода в отрасли – 8-10 страниц в день. Мы работаем
+                                со стандартной скоростью 15 страниц в день. В отдельных случаях специалисты Eclipse
+                                могут обеспечить вам до 300 страниц профессионального перевода в сутки. Можно ли
+                                сделать больше? Вероятно. Можно ли сделать лучше? Нет.
+                            </p>
+                        </div>
+                        <div class="recomendation-item">
+                            <h3 class="recomendation-item__header">Технология проверки качества и сквозной терминологии (QA)</h3>
+                            <p class="recomendation-item__content">Внедрение специализированного софта по автоматизации не только ускоряет работу
+                                наших переводчиков, но и позволяет нам поддерживать стабильно высокое качество.
+                                Точность каждого знака – стандарт нашей работы.
+                            </p>
+                        </div>
+                        <div class="recomendation-item">
+                            <h3 class="recomendation-item__header">Высокая квалификация сотрудников</h3>
+                            <p class="recomendation-item__content">С нами работают дипломированные переводчики. Профессиональные лингвисты.
+                                Носители языка из 120 стран мира. Более 1200 специалистов. Сотрудничая с нами,
+                                вы способны говорить на любом языке мира.
+                            </p>
+                        </div>
+                        <div class="recomendation-item">
+                            <h3 class="recomendation-item__header">Безупречное обслуживание</h3>
+                            <p class="recomendation-item__content">Ищете переводчика на деловую встречу? Поможем подобрать. Есть особые пожелания
+                                к тексту? Учтем.  Желаете увидеться, чтобы обсудить дополнительные вопросы – будем
+                                рады личной встрече. Возникли срочные поправки к проекту – их внесет ваш персональный
+                                менеджер. Для вас мы работаем 24 часа в сутки.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="recomendation-feedback">
+                        <div class="recomendation-feedback__descr">
+                            <h3 class="recomendation-feedback__header">
+                                Узнайте, как быстро будут переведены ваши документы.
+                            </h3>
+                            <p class="recomendation-feedback__text">Загрузите необходимый файл, и наши специалисты сообщат вам ответ в течение 5 минут.</p>
+                        </div>
+                        <div class="recomendation-feedback__form">
+                            <form action="#" enctype="multipart/form-data" class="form form--recomendation">
+                                <div class="form-inputs">
+                                    <input id="form__name--recomendation" type="text" class="form__input" placeholder="Введите имя:">
+                                    <input id="form__phone--recomendation" type="text" class="form__input" placeholder="Введите телефон:">
+                                    <input id="form__email--recomendation" type="text" class="form__input" placeholder="Введите e-mail:">
+                                </div>
+                                <div class="form-confirm">
+                                    <input id="file" type="file" class="form__file">
+                                    <label for="file" class="form-confirm__label">
+                                    <span class="file__text">Загрузить файл</span>
+                                    <img src="static/img/content/main/arrow-right.png" alt="" class="file__img">
+                                    </label>
+                                    <div class="loader-circle">
+                                        <svg height="50" width="50" class="loader-cicle__round">
+                                            <circle cx="25" cy="25" r="20" stroke="#a7a9ac" stroke-width="3px" fill="none"/>
+                                            <circle cx="25" cy="25" r="20" transform= "rotate(-90 25 25)"  stroke="#221f1f" stroke-width="3px" class="sector"  />
+                                        </svg>
+                                        <span class="loader-circle__percents">25%</span>
+                                    </div>
+                                    <input type="submit" class="form__submit form__submit--recomendation button" value="Отправить">
+                                    <span class="success-text">Спасибо, ваш файл отправлен.</span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="analyze">
+            <div class="container">
+                <h2 class="analyze-header">
+                    Анализ <span class="analyze-header__inner">изменения стоимости для наших заказчиков</span>
+                </h2>
+                <div class="analyze-descr">
+                    <p class="analyze-descr__text text-upperline">Мы провели для вас анализ 3-х текстов наших заказчиков, работающих в разных отраслях.</p>
+                    <p class="analyze-descr__text text-underline">Даже при одинаковом объеме текстов стоимость перевода будет разной. Чем чаще повторяются фразы в документах, тем больше экономия.</p>
+                </div>
+                <div class="analyze-items">
+                    <div class="analyze-item">
+                        <div class="analyze-item__image-top">
+                            <img src="static/img/content/analyze/item-1/1.png" alt="" class="analyze-item__img analyze-item__img--top">
+                        </div>
+                        <p class="analyze-item__descr">График изменения средней стоимости
+                            1 учетной страницы на примере
+                            Адвокатского Бюро EPAM
+                            (юридическая компания)
+                        </p>
+                        <div class="analyze-item__image-bottom">
+                            <img src="static/img/content/analyze/item-1/2.png" alt="" class="analyze-item__img analyze-item__img--bottom">
+                        </div>
+                    </div>
+                    <div class="analyze-item">
+                        <div class="analyze-item__image-top">
+                            <img src="static/img/content/analyze/item-2/1.png" alt="" class="analyze-item__img analyze-item__img--top">
+                        </div>
+                        <p class="analyze-item__descr">График изменения средней стоимости
+                            1 учетной страницы 
+                            <span class="analyze-item__descr-break">
+                            на примере LG Life Sciences
+                            (регистрационные досье)
+                            </span>
+                        </p>
+                        <div class="analyze-item__image-bottom">
+                            <img src="static/img/content/analyze/item-2/2.png" alt="" class="analyze-item__img analyze-item__img--bottom">
+                        </div>
+                    </div>
+                    <div class="analyze-item">
+                        <div class="analyze-item__image-top">
+                            <img src="static/img/content/analyze/item-3/1.png" alt="" class="analyze-item__img analyze-item__img--top">
+                        </div>
+                        <p class="analyze-item__descr">
+                            График изменения средней стоимости
+                            1 учетной страницы 
+                            <span class="analyze-item__descr-break">
+                            на примере компании ARDO
+                            (инструкции по эксплуатации)
+                            </span>
+                        </p>
+                        <div class="analyze-item__image-bottom">
+                            <img src="static/img/content/analyze/item-3/2.png" alt="" class="analyze-item__img analyze-item__img--bottom">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="reasons" class="reasons">
+            <div class="container">
+                <div class="reasons__wrapper">
+                    <div class="reasons-photos">
+                        <div class="wrapper">
+                            <div class="reasons-photos__overley">
+                                <img src="static/img/content/reasons/1.png" alt="" class="reasons-photos__img">
+                                <div class="overley-content">
+                                    <p class="overley-content__text overley-content__text--first">
+                                        Переводчики-консультанты,
+                                        <span class="separator">
+                                        которые будут сопровождать вас
+                                        <span class="separator">в заграничной командировке </span>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="reasons-photos__overley">
+                                <img src="static/img/content/reasons/2.png" alt="" class="reasons-photos__img">
+                                <div class="overley-content">
+                                    <p class="overley-content__text">
+                                        Переводчики-проводники
+                                        из числа местных жителей,
+                                        которые встретят вас
+                                        после перелета в другую
+                                        страну, будь то Швеция,
+                                        Германия, Китай
+                                        или Конгое
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="reasons-photos__overley">
+                                <img src="static/img/content/reasons/3.png" alt="" class="reasons-photos__img">
+                                <div class="overley-content">
+                                    <p class="overley-content__text">
+                                        Переводчики,
+                                        специaлизирующиеся 
+                                        на конкретных отраслях -
+                                        от атомной энергетики
+                                        до дипломатического
+                                        протокола
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="reasons-photos__overley">
+                                <img src="static/img/content/reasons/4.png" alt="" class="reasons-photos__img">
+                                <div class="overley-content">
+                                    <p class="overley-content__text">
+                                        Переводчики для
+                                        получасовых переговоров
+                                        и переводчики для
+                                        месячного сопровождения
+                                        во время визита к вашим
+                                        зарубежным партнерам
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="reasons-photos__overley">
+                                <img src="static/img/content/reasons/5.png" alt="" class="reasons-photos__img">
+                                <div class="overley-content">
+                                    <p class="overley-content__text">
+                                        Переводчики под
+                                        конкретный запрос –
+                                        мужчины и женщины,
+                                        молодые и пожилые,
+                                        брюнеты и блондинки, 
+                                        европейцы и азиаты и т.д.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="reasons-photos__overley">
+                                <img src="static/img/content/reasons/6.png" alt="" class="reasons-photos__img">
+                                <div class="overley-content">
+                                    <p class="overley-content__text">
+                                        Синхронные
+                                        переводчики
+                                        и необходимое 
+                                        оборудование
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="reasons-photos__overley">
+                                <img src="static/img/content/reasons/7.png" alt="" class="reasons-photos__img">
+                                <div class="overley-content">
+                                    <p class="overley-content__text">
+                                        Переводчики для
+                                        срочных мероприятий –
+                                        у нас есть специалисты,
+                                        готовые помочь вам
+                                        прямо сейчас.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reasons-form">
+                        <h3 class="reasons-form__header">
+                            7 причин <span class="reasons-form__header-inner"> обратиться в Eclipse, </span>
+                            <span class="reasons-form__header-inner reasons-form__header-inner--another">если вы ищете <span class="separator">устного переводчика </span> </span>
+                        </h3>
+                        <div class="reasons-items">
+                            <div class="reasons-item">
+                                <p class="reasons-item__text">
+                                    Переводчики-консультанты,
+                                    которые будут сопровождать вас
+                                    в заграничной командировке
+                                </p>
+                            </div>
+                            <div class="reasons-item">
+                                <p class="reasons-item__text">
+                                    Переводчики-проводники
+                                    из числа местных жителей,
+                                    которые встретят вас
+                                    после перелета в другую
+                                    страну, будь то Швеция,
+                                    Германия, Китай
+                                    или Конго
+                                </p>
+                            </div>
+                            <div class="reasons-item">
+                                <p class="reasons-item__text">
+                                    Переводчики,
+                                    специaлизирующиеся 
+                                    на конкретных отраслях -
+                                    от атомной энергетики
+                                    до дипломатического
+                                    протокола
+                                </p>
+                            </div>
+                            <div class="reasons-item">
+                                <p class="reasons-item__text">
+                                    Переводчики для
+                                    получасовых переговоров
+                                    и переводчики для
+                                    месячного сопровождения
+                                    во время визита к вашим
+                                    зарубежным партнерам
+                                </p>
+                            </div>
+                            <div class="reasons-item">
+                                <p class="reasons-item__text">
+                                    Переводчики под
+                                    конкретный запрос –
+                                    мужчины и женщины,
+                                    молодые и пожилые,
+                                    брюнеты и блондинки, 
+                                    европейцы и азиаты и т.д.
+                                </p>
+                            </div>
+                            <div class="reasons-item">
+                                <p class="reasons-item__text">
+                                    Переводчики для
+                                    срочных мероприятий –
+                                    у нас есть специалисты,
+                                    готовые помочь вам
+                                    прямо сейчас
+                                </p>
+                            </div>
+                            <div class="reasons-item">
+                                <p class="reasons-item__text">
+                                    Синхронные
+                                    переводчики
+                                    и необходимое 
+                                    оборудование
+                                </p>
+                            </div>
+                        </div>
+                        <p class="reasons-form__descr">
+                            В Eclipse вам подберут
+                            квалифицированного переводчика
+                            для любой ситуации
+                        </p>
+                        <div class="main-form__wrapper main-form__wrapper--reasons">
+                            <h2 class="main-form__header main-form__header--reasons">Мы предложим вам
+                                лучшее решение для
+                                вашей задачи:
+                            </h2>
+                            <form action="#" class="form form--reasons">
+                                <input id="form__name--reasons" type="text" class="form__input" placeholder="Введите имя:">
+                                <input id="form__phone--reasons" type="text" class="form__input" placeholder="Введите телефон:">
+                                <input id="form__email--reasons" type="email" class="form__input" placeholder="Введите e-mail">
+                                <input type="submit" class="form__submit button" value="Заказать устный перевод">
+                            </form>
+                            <div class="success-text">Спасибо, ваш запрос отправлен.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="translators" class="translators">
+            <div class="container">
+                <div class="translators-top">
+                    <h2 class="translators-top__header">Наши <span class="translators-top__header-inner">устные</span> переводчики</h2>
+                    <p class="translators-top__descr">Это лишь некоторые <span class="translators-top__descr-inner">из наших лучших сотрудников:</span>
+                    </p>
+                </div>
+                <div class="translators-items">
+                    <div class="translators-item">
+                        <div class="translators-item__image">
+                            <img src="static/img/content/translators/1.png" alt="" class="translators-item__img">
+                        </div>
+                        <h3 class="translators-item__header">Алексей</h3>
+                        <p class="translators-item__descr">Китайский язык</p>
+                    </div>
+                    <div class="translators-item">
+                        <div class="translators-item__image">
+                            <img src="static/img/content/translators/2.png" alt="" class="translators-item__img">
+                        </div>
+                        <h3 class="translators-item__header">Ренат</h3>
+                        <p class="translators-item__descr">Английский, турецкий языки</p>
+                    </div>
+                    <div class="translators-item">
+                        <div class="translators-item__image">
+                            <img src="static/img/content/translators/3.png" alt="" class="translators-item__img">
+                        </div>
+                        <h3 class="translators-item__header">Елизавета</h3>
+                        <p class="translators-item__descr">Немецкий язык</p>
+                    </div>
+                    <div class="translators-item">
+                        <div class="translators-item__image">
+                            <img src="static/img/content/translators/4.png" alt="" class="translators-item__img">
+                        </div>
+                        <h3 class="translators-item__header">Евгений</h3>
+                        <p class="translators-item__descr">Португальский язык</p>
+                    </div>
+                    <div class="translators-item">
+                        <div class="translators-item__image">
+                            <img src="static/img/content/translators/5.png" alt="" class="translators-item__img">
+                        </div>
+                        <h3 class="translators-item__header">Барбара</h3>
+                        <p class="translators-item__descr">Польский, английский языки</p>
+                    </div>
+                    <div class="translators-item">
+                        <div class="translators-item__image">
+                            <img src="static/img/content/translators/6.png" alt="" class="translators-item__img">
+                        </div>
+                        <h3 class="translators-item__header">Вадим</h3>
+                        <p class="translators-item__descr">Английский, японский языки</p>
+                    </div>
+                    <div class="translators-item">
+                        <div class="translators-item__image">
+                            <img src="static/img/content/translators/7.png" alt="" class="translators-item__img">
+                        </div>
+                        <h3 class="translators-item__header">Кристина</h3>
+                        <p class="translators-item__descr">Итальянский, испанский, каталонский языки</p>
+                    </div>
+                    <div class="translators-item">
+                        <div class="translators-item__image">
+                            <img src="static/img/content/translators/8.png" alt="" class="translators-item__img">
+                        </div>
+                        <h3 class="translators-item__header">Марк</h3>
+                        <p class="translators-item__descr">Немецкий, английский языки</p>
+                    </div>
+                    <div class="translators-item">
+                        <div class="translators-item__image">
+                            <img src="static/img/content/translators/9.png" alt="" class="translators-item__img">
+                        </div>
+                        <h3 class="translators-item__header">Сара</h3>
+                        <p class="translators-item__descr">Английский, гранцузский языки</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts" class="contacts">
+            <div id="map"></div>
+            <div class="contacts-info">
+                <div class="contacts-descr">
+                    <div class="contacts-descr__wrap">
+                        <a href="tel:+74952239226" class="contacts-descr__phone">+7 (495) 223 92 26</a>
+                    </div>
+                    <div class="contacts-descr__wrap">
+                        <a href="mailto:info@buro-eclipse.ru" class="contacts-descr__mail">info@buro-eclipse.ru</a>
+                    </div>
+                    <p class="contacts-descr__address">Москва <span class="separator">Строительный проезд, 7А, к. 1, оф. 2</span></p>
+                </div>
+                <div class="main-form__wrapper main-form__wrapper--contacts">
+                    <h2 class="main-form__header main-form__header--contacts">
+                        Остались вопросы?
+                    </h2>
+                    <p class="main-form__descr main-form__descr--contacts">
+                        Задайте их
+                        <span class="separator"> нашему консультанту:</span>
+                    </p>
+                    <form action="#" class="form form--contacts">
+                        <input id="form__name--contacts" type="text" class="form__input" placeholder="Введите имя:">
+                        <input id="form__phone--contacts" type="text" class="form__input" placeholder="Введите телефон:">
+                        <textarea name="message" id="message" rows="4" class="form__input form__textarea" placeholder="Ваш вопрос:"></textarea>
+                        <input type="submit" class="form__submit button" value="Спросить">
+                    </form>
+                    <div class="success-text">Спасибо, ваш запрос отправлен.</div>
+                </div>
+            </div>
+        </section>
+        <footer class="main-footer">
+            <div class="container">
+                <div class="main-footer__wrapper">
+                    <a href="#" class="main-footer__logo">
+                    <span class="main-footer__logo-text">Eclipse</span>
+                    </a>
+                    <ul class="footer-links">
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">
+                            <img src="static/img/content/footer/1.png" alt="" class="footer-link__link-img">
+                            </a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">
+                            <img src="static/img/content/footer/2.png" alt="" class="footer-link__link-img">
+                            </a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">
+                            <img src="static/img/content/footer/3.png" alt="" class="footer-link__link-img">
+                            </a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">
+                            <img src="static/img/content/footer/4.png" alt="" class="footer-link__link-img">
+                            </a>
+                        </li>
+                        <li class="footer-links__item">
+                            <a href="#" class="footer-links__link">
+                            <img src="static/img/content/footer/5.png" alt="" class="footer-link__link-img">
+                            </a>
+                        </li>
+                    </ul>
+                    <span class="main-footer__text">Разработано в </span>
+                </div>
+            </div>
+        </footer>
+        <div id="modal-window-1" class="overlay js-overlay-campaign">
+            <div class="popup js-popup-campaign">
+                <div class="popup-header">Заполните форму</div>
+                <form action="#" class="form form--popup">
+                    <input id="form__name--window1" type="text" class="form__input" placeholder="Введите имя и фамилию:">
+                    <input id="form__phone--window1" type="text" class="form__input" placeholder="Введите номер телефона:">
+                    <input id="form__email--window1" type="email" class="form__input" placeholder="Введите e-mail:">
+                    <input type="submit" class="form__submit form__submit--popup button" value="Заказать звонок">
+                </form>
+                <div class="success-text">Спасибо за заявку</div>
+            </div>
+        </div>
+        <div id="modal-window-2" class="overlay js-overlay-campaign">
+            <div class="popup js-popup-campaign">
+                <div class="popup-header">Заполните форму</div>
+                <form action="#"  class="form form--second">
+                    <input id="form__name--window2" type="text" class="form__input" placeholder="Введите имя и фамилию:">
+                    <input id="form__phone--window2" type="text" class="form__input" placeholder="Введите номер телефона:">
+                    <input id="form__email--window2" type="email" class="form__input" placeholder="Введите e-mail:">
+                    <input type="submit" class="form__submit form__submit--popup button" value="Заказать перевод">
+                </form>
+                <div class="success-text">Спасибо за заявку</div>
+            </div>
+        </div>
+        <div class="btn-top">
+            Наверх
+        </div>
+        <script src="static/js/scripts.min.js"></script>
+        <script>
+            ymaps.ready(init);
+            var myMap;
+            function init(){     
+              myMap = new ymaps.Map ("map", {
+                center: [55.832894, 37.426600],
+                zoom: 13,
+              }, {suppressMapOpenBlock: true});
+            }
+        </script>
+    </body>
+</html>
