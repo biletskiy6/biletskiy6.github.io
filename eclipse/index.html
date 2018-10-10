@@ -635,7 +635,11 @@
             </div>
         </section>
         <section id="contacts" class="contacts">
-            <div id="map"></div>
+            <div class="ymap-container">
+                <div class="loader loader-default"></div>
+                <div id="map-yandex"></div>
+            </div>
+            <!-- .ymap-container -->
             <div class="contacts-info">
                 <div class="contacts-descr">
                     <div class="contacts-descr__wrap">
@@ -729,16 +733,5 @@
             Наверх
         </div>
         <script src="static/js/scripts.min.js"></script>
-        <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"></script>
-        <script>
-            ymaps.ready(init);
-            var myMap;
-            function init(){     
-              myMap = new ymaps.Map ("map", {
-                center: [55.832894, 37.426600],
-                zoom: 13,
-              }, {suppressMapOpenBlock: true});
-            }
-        </script>
     </body>
 </html>
