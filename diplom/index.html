@@ -1,70 +1,108 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="utf-8">
-    <title>OptimizedHTML 4</title>
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta property="og:image" content="path/to/image.jpg">
-    <meta name="theme-color" content="#283645">
-    <meta name="msapplication-navbutton-color" content="#283645">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#283645">
-    <link rel="icon" href="static/img/favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/apple-touch-icon-180x180.png">
-    <link rel="stylesheet" href="static/css/main.css">
-</head>
-
-<body class="home">
-
-    <header class="main-header">
-        <div class="top-line">
+   <head>
+      <meta charset="utf-8">
+      <title>OptimizedHTML 4</title>
+      <meta name="description" content="">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta property="og:image" content="path/to/image.jpg">
+      <meta name="theme-color" content="#283645">
+      <meta name="msapplication-navbutton-color" content="#283645">
+      <meta name="apple-mobile-web-app-status-bar-style" content="#283645">
+      <link rel="icon" href="static/img/favicon/favicon.ico">
+      <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/apple-touch-icon-180x180.png">
+      <link rel="stylesheet" href="static/css/main.css">
+   </head>
+   <body class="home">
+      <header class="main-header">
+         <div class="top-line">
             <div class="container">
-                <div class="top-llne__wrapper">
-                    <a href="#" class="logo">
-                        <img src="static/img/content/logo.jpg" alt="Тута лагатип буит">
-                    </a>
-
-                    <ul class="language-switch">
-                        <li>
-                            <a href="#">
-                               <img src="static/img/svg/flag-ukraine.svg" alt="">
-                           </a> 
-                       </li>
-                       <li>
+               <div class="top-llne__wrapper">
+                  <a href="#" class="logo">
+                  <img src="static/img/content/logo.jpg" alt="Тута лагатип буит">
+                  </a>
+                  <div class="search">
+                     <a href="#"><i class="far fa-search"></i></a>
+                  </div>
+                  <div class="search-overlay">
+                     <button class="search-overlay__close"><i class="far fa-times"></i></button>
+                     <div class="search-form">
+                        <form action="#" class="form-search">
+                           <input type="text" class="form-search__input" placeholder="Пошук">
+                           <input type="submit" class="form-search__find" value="Знайти">
+                        </form>
+                     </div>
+                  </div>
+                  <ul class="language-switch">
+                     <li class="active">
                         <a href="#">
-                            <img src="static/img/svg/flag-london.svg" alt="">
+                        <img src="static/img/svg/flag-ukraine.svg" alt="">
                         </a> 
-                    </li>
-
-                </ul>
-                <div class="toggle-menu is-animated">
-                    <div class="toggle-menu__row"></div>
-                    <div class="toggle-menu__row"></div>
-                    <div class="toggle-menu__row"></div>
-                </div>
+                     </li>
+                     <li>
+                        <a href="#">
+                        <img src="static/img/svg/flag-london.svg" alt="">
+                        </a> 
+                     </li>
+                  </ul>
+                  <div class="toggle-menu is-animated">
+                     <div class="toggle-menu__row"></div>
+                     <div class="toggle-menu__row"></div>
+                     <div class="toggle-menu__row"></div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-    <div class="menu">
-     <nav class="main-navigation">
-        <ul class="main-menu">
-            <li><a href="#" class="animated animatedFadeInUp"><span>Головна</span></a></li>
-            <li><a href="#" class="animated animatedFadeInUp"><span>Наша команда</span></a></li>
-            <li><a href="#" class="animated animatedFadeInUp"><span>Матеріали</span></a></li>
-            <li><a href="#" class="animated animatedFadeInUp"><span>Фотогалерея</span></a></li>
-        </ul>
-    </nav>
-</div>
-
-<div class="intro">
-    <h2 class="intro__title">Кафедра екології</h2>
-    <p class="intro__text">Чорноморського національного університету ім.Петра Могили</p>
-</div>
-</header>
-
-<script src="static/js/scripts.min.js"></script>
-</body>
-
+         </div>
+         <div class="menu">
+            <nav class="main-navigation">
+               <ul class="main-menu">
+                  <li><a href="#" class="animated animatedFadeInUp"><span>Головна</span></a></li>
+                  <li><a href="#" class="animated animatedFadeInUp"><span>Наша команда</span></a></li>
+                  <li><a href="#" class="animated animatedFadeInUp"><span>Матеріали</span></a></li>
+                  <li><a href="#" class="animated animatedFadeInUp"><span>Фотогалерея</span></a></li>
+               </ul>
+            </nav>
+         </div>
+         <div class="intro">
+            <h2 class="intro__title">Кафедра екології</h2>
+            <p class="intro__text">Чорноморського національного університету ім.Петра Могили</p>
+         </div>
+         <div class="posts-list">
+            <div class="container">
+               <div class="posts-list__wrapper">
+                  <div class="main-post">
+                     <div class="post">
+                        <a href="#">
+                        <img src="static/img/content/posts/post-1.jpg" alt="">
+                        </a>
+                        <div class="post-content">
+                           <h2>Заголовок</h2>
+                           <p>
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nostrum, ullam fuga numquam repellendus dignissimos labore consequuntur modi, ipsam rerum ratione sunt officia? Culpa recusandae eligendi reiciendis veritatis placeat sunt architecto fuga unde dolores quod sit quaerat doloribus minima in quasi impedit adipisci autem, quia dolorum accusantium error repellat dolore. Reprehenderit aliquid in eius similique ullam, adipisci nihil rerum numquam!
+                           </p>
+                        </div>
+                        <div class="post-footer">
+                           <p class="date">Листопад 13, 2018</p>
+                           <p class="read-time">5 min read</p>
+                        </div>
+                     </div>
+                  </div>
+        
+               </div>
+            </div>
+         </div>
+      </header>
+      <section class="s-about">
+         das
+      </section>
+      <section class="s-contacts">
+         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 100 100" preserveAspectRatio="none" class="contacts-triangle">
+            <polygon fill="#fff" points="0,100 50,0 100,100" />
+         </svg>
+         <div id="google-container"></div>
+      </section>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf86ERXMsj_Tj2mXWAS9GATz9H8ulGxbg&language=ru"></script>
+      <script src="static/js/scripts.min.js"></script>
+   </body>
 </html>
