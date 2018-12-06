@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="path/to/image.jpg">
+    <meta name="theme-color" content="#283645">
+    <meta name="msapplication-navbutton-color" content="#283645">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#283645">
+    <link rel="icon" href="static/img/favicon/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/img/favicon/apple-touch-icon-180x180.png">
+    <link rel="stylesheet" href="static/css/main.css">
+</head>
+<body class="home">    
+    <div class="preloader">
+      <div class="preloader__spinner">
+        <div class="preloader__animation"></div>
+        <div class="preloader__percents">0%</div>
+    </div> 
+</div>
+<div id="fullpage">
+    <header class="main-header section">
+        <a href="#" class="logo is-animated">
+            <svg class="logo__icon" width="70" height="40" viewBox="0 0 70 40">
+             <use xlink:href="static/img/svg/sprite.svg#logo" />
+         </svg>
+     </a>
+     <div class="toggle-menu is-animated">
+        <div class="toggle-menu__row"></div>
+        <div class="toggle-menu__row"></div>
+        <div class="toggle-menu__row"></div>
+    </div>
+    <div class="main-block">
+        <h2 class="main-block__header is-animated">Заголовок</h2>
+        <p class="main-block__descr is-animated">Lorem ipsum dolor sit amet.</p>
+        <a data-menuanchor="portfolio" href="#portfolio" class="button button--main is-animated">Lorem</a>
+    </div>
+    <div class="bottom-line bottom-line--main">
+        <div class="bottom-line__wrapper">
+            <ul class="pagination is-animated">
+                <li class="pagination__item pagination__item--active">01/</li>
+                <li class="pagination__item">05</li>
+            </ul>
+            <ul class="languages is-animated">
+                <li class="languages__item">
+                    <a href="#" class="languages__link">Eng/</a>
+                </li>
+                <li class="languages__item languages__item--active">
+                    <a href="#" class="languages__link">Rus</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <nav class="main-header__nav">
+        <ul  class="main-menu">
+            <li class="main-menu__item"><a href="#" class="main-menu__link"><span class="main-menu__text">Обо мне</span></a></li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link"><span class="main-menu__text">Навыки</span></a></li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link"><span class="main-menu__text">Портфолио</span></a></li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link"><span class="main-menu__text">Контакты</span></a></li>
+        </ul>
+    </nav>
+</header>
+<section class="s-about section-default section" data-anchor="about">
+    <div class="about common-indent">
+        <h2 class="behind-text behind-text--about is-animated">Обо мне</h2>
+        <div class="container">
+            <div class="about__wrapper">
+                <div class="left-indent about-descr">
+                    <h2 class="main-title main-title--about is-animated">Обо мне</h2>
+                    <p class="main-text main-text--about is-animated">
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur debitis, molestias qui officiis illum ratione, amet ipsam nihil unde quam quaerat reiciendis minus iure possimus, assumenda dolor, nesciunt in at. Cumque, amet molestias praesentium nisi quisquam. Modi hic reprehenderit mollitia.
+                    </p>
+                    <p class="main-text main-text--about text-delimeter is-animated">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, ea!
+                    </p>
+                </div>
+                <div class="about-picture is-animated">
+                    <div class="about-picture__content">
+                        <picture>
+                         <img src="#" alt="Фото">
+                     </picture>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+ <div class="bottom-line">
+    <div class="bottom-line__wrapper">
+        <ul class="pagination">
+            <li class="pagination__item pagination__item--active">02/</li>
+            <li class="pagination__item">05</li>
+        </ul>
+        <ul class="languages">
+            <li class="languages__item">
+                <a href="#" class="languages__link">Eng/</a>
+            </li>
+            <li class="languages__item languages__item--active">
+                <a href="#" class="languages__link">Rus</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</section>
+<section class="s-skills section" data-anchor="skills">
+    <div class="skills-overlay"></div>
+    <div class="skills common-indent common-indent--skills">
+        <h2 class="behind-text behind-text--skills is-animated">Навыки</h2>
+        <div class="container">
+            <div class="skills__wrapper">
+                <div class="left-indent left-indent--skills skills-descr">
+                    <h2 class="main-title is-animated">Навыки</h2>
+                    <p class="main-text main-text--skills is-animated">
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, in.
+                    </p>
+                    <p class="main-text main-text--skills text-delimeter is-animated">
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, sed.
+                    </p>
+                </div>
+                <div class="skills-table is-animated">
+                    <div class="skills-table__wrapper">
+                        <div class="skills-items">
+                            <div class="skills-item">
+                                <picture>
+                                    <source media="(max-width: 1250px)" srcset="static/img/svg/frontend-tablet.svg">
+                                        <img class="skills-item__icon" src="static/img/svg/frontend.svg" alt="Постер">
+                                    </picture>
+                                    <h3 class="skills-item__header">Front-End</h3>
+                                    <ul class="skills-list">
+                                        <li class="skills-list__item">Html 5</li>
+                                        <li class="skills-list__item">CSS 3</li>
+                                        <li class="skills-list__item">JavaScript/Jquery</li>
+                                        <li class="skills-list__item">SASS</li>
+                                        <li class="skills-list__item">SVG</li>
+                                        <li class="skills-list__item">Bootstrap 4 / Smartgrid</li>
+                                    </ul>
+                                </div>
+                                <div class="skills-item">
+                                    <picture>
+                                        <source media="(max-width: 1250px)" srcset="static/img/svg/backend-tablet.svg">
+                                            <img class="skills-item__icon" src="static/img/svg/backend.svg" alt="Постер">
+                                        </picture>
+                                        <h3 class="skills-item__header">Back-End</h3>
+                                        <ul class="skills-list">
+                                            <li class="skills-list__item">PHP 5.4+</li>
+                                            <li class="skills-list__item">SQL</li>
+                                            <li class="skills-list__item">YII2</li>
+                                            <li class="skills-list__item">CMS Wordpress</li>
+                                        </ul>
+                                    </div>
+                                    <div class="skills-item">
+                                        <picture>
+                                            <source media="(max-width: 1250px)" srcset="static/img/svg/workflow-tablet.svg">
+                                                <img class="skills-item__icon" src="static/img/svg/Workflow.svg" alt="Icon Workflow">
+                                            </picture>
+                                            <h3 class="skills-item__header">Workflow</h3>
+                                            <ul class="skills-list">
+                                                <li class="skills-list__item">GULP 4</li>
+                                                <li class="skills-list__item">Git/GitHub</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-line">
+                    <div class="bottom-line__wrapper">
+                        <ul class="pagination">
+                            <li class="pagination__item pagination__item--active">03/</li>
+                            <li class="pagination__item">05</li>
+                        </ul>
+                        <ul class="languages">
+                            <li class="languages__item">
+                                <a href="#" class="languages__link">Eng/</a>
+                            </li>
+                            <li class="languages__item languages__item--active">
+                                <a href="#" class="languages__link">Rus</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="s-portfolio section" data-anchor="portfolio">
+                <div class="portfolio common-indent common-indent--portfolio">
+                    <h2 class="behind-text behind-text--portfolio is-animated">Портфолио</h2>
+                    <div class="container">
+                        <div class="portfolio__wrapper">
+                            <div class="left-indent left-indent--portfolio portfolio-descr">
+                                <h2 class="main-title main-title--portfolio is-animated">Lorem</h2>
+                                <p class="main-text main-text--portfolio text-delimeter is-animated">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, perferendis.
+                                </p>
+                            </div>
+                            <div class="portfolio-works">
+                                <div class="portfolio-items">
+                                    <div class="portfolio-item is-animated">
+                                        <a href="#towork1" class="portfolio-item__link">
+                                            <img src="static/img/content/portfolio/portfolio-items/1.png" class="portfolio-item__img" alt="">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-item is-animated">
+                                        <a href="#towork2" class="portfolio-item__link">
+                                            <img src="static/img/content/portfolio/portfolio-items/2.png" class="portfolio-item__img" alt="">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-item is-animated">
+                                        <a href="https://biletskiy6.github.io/pink-project/" target="_blank" class="portfolio-item__link">
+                                            <img src="static/img/content/portfolio/portfolio-items/3.png" class="portfolio-item__img" alt="">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-item is-animated">
+                                        <a href="#" class="portfolio-item__link">
+                                            <img src="static/img/content/portfolio/portfolio-items/4.png" class="portfolio-item__img" alt="">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-item ">
+                                        <a href="#" class="portfolio-item__link">
+                                            <img src="static/img/content/portfolio/portfolio-items/1.png" class="portfolio-item__img" alt="">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <a href="#" class="portfolio-item__link">
+                                            <img src="static/img/content/portfolio/portfolio-items/2.png" class="portfolio-item__img" alt="">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <a href="#" class="portfolio-item__link">
+                                            <img src="static/img/content/portfolio/portfolio-items/3.png" class="portfolio-item__img" alt="">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <a href="#" class="portfolio-item__link">
+                                            <img src="static/img/content/portfolio/portfolio-items/4.png" class="portfolio-item__img" alt="">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <a href="#" class="portfolio-item__link">
+                                            <img src="static/img/content/portfolio/portfolio-items/1.png" class="portfolio-item__img" alt="">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <a href="#" class="portfolio-item__link">
+                                            <img src="static/img/content/portfolio/portfolio-items/2.png" class="portfolio-item__img" alt="">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <a href="#" class="portfolio-item__link">
+                                            <img src="static/img/content/portfolio/portfolio-items/3.png" class="portfolio-item__img" alt="">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-line">
+                    <div class="bottom-line__wrapper">
+                        <ul class="pagination">
+                            <li class="pagination__item pagination__item--active">04/</li>
+                            <li class="pagination__item">05</li>
+                        </ul>
+                        <ul class="languages">
+                            <li class="languages__item">
+                                <a href="#" class="languages__link">Eng/</a>
+                            </li>
+                            <li class="languages__item languages__item--active">
+                                <a href="#" class="languages__link">Rus</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="s-contacts section" data-anchor="contacts"></section>
+        </div>
+
+        <div class="overlay js-overlay-campaign">
+            <div class="popup js-popup-campaign">
+               <div class="close-popup js-close-campaign"></div>
+               <a href="#" class="button button--portfolio" target="_blank">Посмотреть на сайте</a>
+           </div>
+       </div>
+       <script src="static/js/scripts.min.js"></script>
+   </body>
+   </html>
