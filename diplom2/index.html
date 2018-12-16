@@ -17,54 +17,262 @@
 </head>
 
 <body class="home">
-
+    <div class="preloader">
+        <div class="preloader__spinner">
+            <div class="preloader__animation"></div>
+            <div class="preloader__percents">0%</div>
+        </div>
+    </div>
     <header class="main-header">
         <div class="top-line">
             <div class="container">
                 <div class="top-llne__wrapper">
-                    <a href="#" class="logo">
-                        <img src="static/img/content/logo.jpg" alt="Тута лагатип буит">
-                    </a>
-
-                    <ul class="language-switch">
+                    <div class="logos">
+                        <img src="static/img/content/logo.jpg" alt="">
+                        <img class="bristol-img" src="static/img/content/logos/bristol.jpg" alt="">
+                        <img class="chnu-img" src="static/img/content/logos/chnu.jpg" alt="">
+                        <img class="euro-img" src="static/img/content/logos/euro.jpg" alt="">
+                  </div>
+                        <div class="search">
+                            <a href="#"><i class="far fa-search"></i></a>
+                        </div>
+                        <div class="search-overlay">
+                            <button class="search-overlay__close"><i class="far fa-times"></i></button>
+                            <div class="search-form">
+                                <form action="#" class="form-search">
+                                    <input type="text" class="form-search__input" placeholder="Пошук">
+                                    <input type="submit" class="form-search__find" value="Знайти">
+                                </form>
+                            </div>
+                        </div>
+                        <ul class="language-switch">
+                            <li class="active">
+                                <a href="#">
+                        <img src="static/img/svg/flag-ukraine.svg" alt="">
+                        </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                        <img src="static/img/svg/flag-london.svg" alt="">
+                        </a>
+                            </li>
+                        </ul>
+                        <!--   <div class="toggle-menu is-animated">
+                   <div class="toggle-menu__row"></div>
+                   <div class="toggle-menu__row"></div>
+                   <div class="toggle-menu__row"></div>
+                </div> -->
+                    </div>
+                </div>
+                <div class="scroll-line"></div>
+            </div>
+            <!-- <div class="menu">
+            <nav class="main-navigation">
+               <ul class="main-menu">
+                  <li><a href="#" class="animated animatedFadeInUp"><span>Головна</span></a></li>
+                  <li><a href="/post.html" class="animated animatedFadeInUp"><span>Новини</span></a></li>
+                  <li><a href="#" class="animated animatedFadeInUp"><span>Наша команда</span></a></li>
+                  <li><a href="#" class="animated animatedFadeInUp"><span>Матеріали</span></a></li>
+                  <li><a href="#" class="animated animatedFadeInUp"><span>Фотогалерея</span></a></li>
+               </ul>
+            </nav>
+         </div> -->
+            <div class="container">
+                <div class="intro">
+                    <img src="static/img/content/logos/beforeHeader.jpg" alt="" class="intro__logo">
+                    <div class="intro-text">
+                        <h2 class="intro__title">The Best European Practices for the «Water Security» Platform to Achieve the Goals of Sustainable Development</h2>
+                        <p class="intro__text">Чорноморський національний університет ім.Петра Могили</p>
+                    </div>
+                </div>
+                <nav class="main-navigation">
+                    <ul class="main-menu">
+                        <li><a href="#" class="animated animatedFadeInUp"><span>Головна</span></a></li>
+                        <li><a href="/post.html" class="animated animatedFadeInUp"><span>Новини</span></a></li>
+                        <li><a href="#" class="animated animatedFadeInUp"><span>Команда</span></a></li>
+                        <li><a href="#" class="animated animatedFadeInUp"><span>Навчальні матеріали</span></a></li>
+                        <li><a href="#" class="animated animatedFadeInUp"><span>Фотогалерея</span></a></li>
+                    </ul>
+                </nav>
+                <div class="posts-items">
+                    <div class="post-item">
+                        <img src="static/img/content/posts/post-2.jpg" alt="1">
+                        <div class="post-item__content">
+                            <h2>Заголовок статті</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ut, iste accusamus esse illo atque debitis, eaque expedita dignissimos veniam.</p>
+                        </div>
+                    </div>
+                    <div class="post-item">
+                        <img src="static/img/content/posts/post-2.jpg" alt="1">
+                        <div class="post-item__content">
+                            <h2>Заголовок статті</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ut, iste accusamus esse illo atque debitis, eaque expedita dignissimos veniam.</p>
+                        </div>
+                    </div>
+                    <div class="post-item">
+                        <img src="static/img/content/posts/post-2.jpg" alt="1">
+                        <div class="post-item__content">
+                            <h2>Заголовок статті</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ut, iste accusamus esse illo atque debitis, eaque expedita dignissimos veniam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ut, iste accusamus esse illo atque debitis, eaque expedita dignissimos veniam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <section class="s-about section">
+        <div class="section-intro">
+            <h2>Наша команда</h2>
+            <i class="far fa-graduation-cap"></i>
+        </div>
+        <div class="container">
+            <div class="team-items">
+                <div class="team-item">
+                    <div class="team-img">
+                        <div class="team-img__wrapper">
+                            <div class="img-border img-border--left"></div>
+                            <div class="img-border img-border--bottomR"></div>
+                            <img src="static/img/content/team/1.png" alt="#">
+                     </div>
+                        </div>
+                        <div class="team-info">
+                            <div class="team-info__content">
+                                <h2>Ім'я викладача1</h2>
+                                <p class="team-info__proffesion">Завідувач кафедри</p>
+                                <p class="team-info__about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem praesentium ea, voluptas. Debitis eos iste minus reiciendis, ea doloremque. Accusantium voluptate quibusdam ex nostrum fugiat, deserunt mollitia quis dolores aut soluta, eum eos praesentium, illum tempora repellat ullam? Sapiente laudantium voluptates quis enim veniam ducimus obcaecati aliquam, ullam commodi corporis?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-item">
+                        <div class="team-img">
+                            <div class="team-img__wrapper">
+                                <div class="img-border img-border--left"></div>
+                                <div class="img-border img-border--bottomR"></div>
+                                <img src="static/img/content/team/2.png" alt="#">
+                     </div>
+                            </div>
+                            <div class="team-info">
+                                <div class="team-info__content">
+                                    <h2>Ім'я викладача2</h2>
+                                    <p class="team-info__proffesion">Завідувач кафедри</p>
+                                    <p class="team-info__about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem praesentium ea, voluptas. Debitis eos iste minus reiciendis, ea doloremque. Accusantium voluptate quibusdam ex nostrum fugiat, deserunt mollitia quis dolores aut soluta, eum eos praesentium, illum tempora repellat ullam? Sapiente laudantium voluptates quis enim veniam ducimus obcaecati aliquam, ullam commodi corporis?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item">
+                            <div class="team-img">
+                                <div class="team-img__wrapper">
+                                    <div class="img-border img-border--left"></div>
+                                    <div class="img-border img-border--bottomR"></div>
+                                    <img src="static/img/content/team/3.png" alt="#">
+                     </div>
+                                </div>
+                                <div class="team-info">
+                                    <div class="team-info__content">
+                                        <h2>Ім'я викладача3</h2>
+                                        <p class="team-info__proffesion">Завідувач кафедри</p>
+                                        <p class="team-info__about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem praesentium ea, voluptas. Debitis eos iste minus reiciendis, ea doloremque. Accusantium voluptate quibusdam ex nostrum fugiat, deserunt mollitia quis dolores aut soluta, eum eos praesentium, illum tempora repellat ullam? Sapiente laudantium voluptates quis enim veniam ducimus obcaecati aliquam, ullam commodi corporis?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </section>
+    <section class="s-gallery section section--gallery">
+        <div class="section-intro">
+            <h2>Фотогалерея</h2>
+            <i class="far fa-camera-retro"></i>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="static/img/content/gallery/1.jpg" alt="">
+               </div>
+                    <div class="swiper-slide">
+                        <img src="static/img/content/gallery/2.jpg" alt="">
+               </div>
+                        <div class="swiper-slide">
+                            <img src="static/img/content/gallery/3.jpg" alt="">
+               </div>
+                            <div class="swiper-slide">
+                                <img src="static/img/content/gallery/1.jpg" alt="">
+               </div>
+                                <div class="swiper-slide">
+                                    <img src="static/img/content/gallery/2.jpg" alt="">
+               </div>
+                                    <div class="swiper-slide">
+                                        <img src="static/img/content/gallery/3.jpg" alt="">
+               </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+    </section>
+    <section class="s-newslatter">
+        <div class="section-intro">
+            <h2>Будьте на зв'язку</h2>
+            <i class="far fa-envelope"></i>
+        </div>
+        <div class="container">
+            <div class="s-newslatter__info">
+                <p>Пропонуємо Вам підписатись на email-розсилку, щоб стежити за останніми подіями</p>
+            </div>
+            <div class="newsletter">
+                <form class="newsletter-form" action="#">
+                    <input id="email" class="newsletter-form__input" type="text" placeholder="E-mail">
+                    <input type="submit" class="newsletter-form__submit" value="Підписатися">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="main-footer">
+        <div class="container">
+            <div class="main-footer__wrapper">
+                <div class="copyrights">
+                    <a href="#"><img src="static/img/content/logo.jpg" alt=""></a>
+                    <p>2018. Усі права захищені</p>
+                </div>
+                <div class="latests">
+                    <h4 class="footer-header">Останні новини</h4>
+                    <ul class="latests__news">
                         <li>
-                            <a href="#">
-                               <img src="static/img/svg/flag-ukraine.svg" alt="">
-                           </a> 
-                       </li>
-                       <li>
-                        <a href="#">
-                            <img src="static/img/svg/flag-london.svg" alt="">
-                        </a> 
-                    </li>
-
-                </ul>
-                <div class="toggle-menu is-animated">
-                    <div class="toggle-menu__row"></div>
-                    <div class="toggle-menu__row"></div>
-                    <div class="toggle-menu__row"></div>
+                            <i class="far fa-chevron-right"></i>
+                            <a href="#">Завершення II Спартакіади ЧНУ ім. Петра Могили серед студентів</a>
+                        </li>
+                        <li>
+                            <i class="far fa-chevron-right"></i>
+                            <a href="#">Прямий радіоефір до Дня Гідності та Свободи</a>
+                        </li>
+                        <li>
+                            <i class="far fa-chevron-right"></i>
+                            <a href="#">Кінотренінг до Міжнародного дня людей з інвалідністю</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contacts">
+                    <h4 class="footer-header">Контактна інформація</h4>
+                    <a href="tel:0443388904" class="phone phone--footer">(044) 338-89-04</a>
+                    <div class="address">
+                        <ul>
+                            <li><i class="far fa-location-arrow"></i><span>м.Миколаїв, вулиця 68 Десантників</span></li>
+                            <li><i class="far fa-envelope"></i><a href="mailto:info@mail.ru">info@mail.ru</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="map">
                 </div>
             </div>
         </div>
+    </footer>
+    <div class="s-contacts">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 100 100" preserveAspectRatio="none" class="contacts-triangle">
+            <polygon fill="#fff" points="0,100 50,0 100,100" />
+        </svg>
+        <div id="google-container"></div>
     </div>
-    <div class="menu">
-     <nav class="main-navigation">
-        <ul class="main-menu">
-            <li><a href="#" class="animated animatedFadeInUp"><span>Головна</span></a></li>
-            <li><a href="#" class="animated animatedFadeInUp"><span>Наша команда</span></a></li>
-            <li><a href="#" class="animated animatedFadeInUp"><span>Матеріали</span></a></li>
-            <li><a href="#" class="animated animatedFadeInUp"><span>Фотогалерея</span></a></li>
-        </ul>
-    </nav>
-</div>
-
-<div class="intro">
-    <h2 class="intro__title">Кафедра екології</h2>
-    <p class="intro__text">Чорноморського національного університету ім.Петра Могили</p>
-</div>
-</header>
-
-<script src="static/js/scripts.min.js"></script>
+    <button class="to-top">
+        <i class="far fa-arrow-alt-up"></i>
+    </button>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf86ERXMsj_Tj2mXWAS9GATz9H8ulGxbg&language=ru"></script>
+    <script src="static/js/scripts.min.js"></script>
 </body>
 
 </html>
