@@ -1,0 +1,182 @@
+@font-face {
+	font-family: 'Harlow-Solid-Italic';
+    src:  url('../fonts/Harlow-Solid-Italic.ttf.woff') format('woff'),
+    url('../fonts/Harlow-Solid-Italic.ttf.svg#Harlow-Solid-Italic') format('svg'),
+    url('../fonts/Harlow-Solid-Italic.ttf.eot'),
+    url('../fonts/Harlow-Solid-Italic.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	background-image: url('../images/bg.jpg');
+}
+img{
+	width: 100%;
+}
+.shadow {
+	-webkit-box-shadow: 6px 6px 12px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 6px 6px 12px 0px rgba(0,0,0,0.4);
+	box-shadow: 6px 6px 12px 0px rgba(0,0,0,0.4);
+}
+.rotate-5 {
+	-moz-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+.rotate-10 {
+	-moz-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	-ms-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+.rotate-20 {
+	-moz-transform: rotate(20deg);
+	-webkit-transform: rotate(20deg);
+	-o-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	transform: rotate(20deg);
+}
+.rotate-340 {
+	-moz-transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+.rotate-345 {
+	-moz-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+.rotate-350 {
+	-moz-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+.block-title {
+    color: #574834;
+    font-family: 'Harlow-Solid-Italic';
+    font-size: 48pt;
+    text-align: center;
+}
+.polaroid {
+	display: inline-block;
+	position: relative;
+	width: 264px;
+	height: 219px;
+	border: 18px solid #ffffff;
+	border-bottom: 91px solid #ffffff;
+	-webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.polaroid:hover, 
+.photo:hover {
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	z-index: 999;
+	
+}
+.polaroid:before,
+.polaroid:after {
+	content: url(../images/pin.png);
+    position: absolute;
+    left: -13px;
+    top: -45px;
+}
+.polaroid:after {
+    right: -34px;
+    left: auto;
+}
+.polaroid:hover:before,
+.polaroid:hover:after,
+.photo:hover:before,
+.photo:hover:after,
+.no-left-pin:before {
+	display: none;
+}
+.photo {
+	display: inline-block;
+	position: relative;
+	width: 300px;
+	height: 200px;
+	border: 10px solid #ffffff;
+	-webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+.photo.landskape {
+	width: 450px;
+	height: 300px;
+}
+.photo.portrait {
+	width: 300px;
+	height: 450px;
+}
+.photo:before,
+.photo:after {
+	content: url(../images/stick.png);
+    position: absolute;
+    left: -30px;
+    top: -30px;
+}
+.photo:after {
+    right: -30px;
+    left: auto;
+}
+.wedding-block {
+    position: absolute;
+    left: 3%;
+    top: 150px;
+    width: fit-content
+}
+.child-block {
+    position: absolute;
+    right: 0;
+    top: 150px;
+    width: fit-content
+}
+.child-block .block-title{
+	position: relative;
+    /* width: auto; */
+    text-align: right;
+    padding-right: 337px;
+    top: -65px;
+}
+.landskape-block {
+    position: absolute;
+    left: 3%;
+    top: 679px;
+    width: fit-content
+}
+.landskape-block .block-title{
+	margin-top: 21px;
+}
+.family-block {
+    position: absolute;
+    right: 0;
+    top: 679px;
+    width: fit-content
+}
+.portrait-block {
+    position: absolute;
+    right: 18%;
+    top: 1193px;
+    width: fit-content;
+}
+.portrait-block .block-title{
+	margin-top: 67px;
+}
