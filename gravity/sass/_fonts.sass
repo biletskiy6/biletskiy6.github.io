@@ -1,0 +1,28 @@
+// font-weight helper:
+
+// 100 Extra Light or Ultra Light;
+// 200 Light or Thin; 300 Book or Demi;
+// 400 Regular or Normal;
+// 500 Medium;
+// 600 Semibold or Demibold;
+// 700 Bold;
+// 800 Black or Extra Bold or Heavy;
+// 900 Extra Black or Fat or Ultra Black
+
+
+@mixin font($f-name, $f-style, $f-weight, $f-url)
+	@font-face
+		font-family: $f-name
+		font-style: $f-style
+		font-display: swap
+		font-weight: $f-weight
+		src: url('#{$f-url}.woff2') format('woff2')
+		src: url('#{$f-url}.woff') format('woff')
+
+
+@include font('FiraSans-Regular', normal, 400,  '../fonts/FiraSans-Regular')
+@include font('FiraSans-Medium', normal, 500,  '../fonts/FiraSans-Medium')
+@include font('FiraSans-Bold', normal, 700,  '../fonts/FiraSans-Bold')
+// @include font('Roboto-Italic', '../fonts/roboto-italic-webfont')
+// @include font('Roboto-Bold', '../fonts/roboto-bold-webfont')
+// @include font('Roboto-Bold-Italic', '../fonts/roboto-bolditalic-webfont')
